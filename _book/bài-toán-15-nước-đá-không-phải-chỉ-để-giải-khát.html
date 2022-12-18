@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 15 Bài toán 15: Nước đá không phải chỉ để giải khát! | A Minimal Book Example</title>
+  <meta name="description" content="Chapter 15 Bài toán 15: Nước đá không phải chỉ để giải khát! | A Minimal Book Example" />
+  <meta name="generator" content="bookdown 0.30 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 15 Bài toán 15: Nước đá không phải chỉ để giải khát! | A Minimal Book Example" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 15 Bài toán 15: Nước đá không phải chỉ để giải khát! | A Minimal Book Example" />
+  
+  
+  
+
+<meta name="author" content="John Doe" />
+
+
+<meta name="date" content="2022-12-17" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="bài-toán-14-chuyến-thám-hiểm-nam-cực.html"/>
+<link rel="next" href="bài-toán-16-thử-thách-hiền-tài.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About</a></li>
+<li class="chapter" data-level="1" data-path="bài-toán-1-nên-quăng-cái-gì.html"><a href="bài-toán-1-nên-quăng-cái-gì.html"><i class="fa fa-check"></i><b>1</b> Bài toán 1: Nên quăng cái gì!</a></li>
+<li class="chapter" data-level="2" data-path="bài-toán-2-thụ-phấn-cho-hoa.html"><a href="bài-toán-2-thụ-phấn-cho-hoa.html"><i class="fa fa-check"></i><b>2</b> Bài toán 2: Thụ phấn cho hoa!</a></li>
+<li class="chapter" data-level="3" data-path="bài-toán-3-loài-kiến..html"><a href="bài-toán-3-loài-kiến..html"><i class="fa fa-check"></i><b>3</b> Bài toán 3: Loài kiến.</a></li>
+<li class="chapter" data-level="4" data-path="bài-toán-4chú-voi-thông-minh-nhất-thế-giới.html"><a href="bài-toán-4chú-voi-thông-minh-nhất-thế-giới.html"><i class="fa fa-check"></i><b>4</b> Bài toán 4:Chú voi thông minh nhất thế giới?</a></li>
+<li class="chapter" data-level="5" data-path="bài-toán-5-vụ-mùa-khoai-tây.html"><a href="bài-toán-5-vụ-mùa-khoai-tây.html"><i class="fa fa-check"></i><b>5</b> Bài toán 5: Vụ mùa khoai tây!</a></li>
+<li class="chapter" data-level="6" data-path="bài-toán-6-thám-tử-tài-ba.html"><a href="bài-toán-6-thám-tử-tài-ba.html"><i class="fa fa-check"></i><b>6</b> Bài toán 6: Thám tử tài ba!</a></li>
+<li class="chapter" data-level="7" data-path="bài-toán-7-nhà-vua-khó-tính.html"><a href="bài-toán-7-nhà-vua-khó-tính.html"><i class="fa fa-check"></i><b>7</b> Bài toán 7: Nhà vua “khó tính”</a></li>
+<li class="chapter" data-level="8" data-path="bài-toán-8-bức-chân-dung-xấu-xí-đắt-đỏ.html"><a href="bài-toán-8-bức-chân-dung-xấu-xí-đắt-đỏ.html"><i class="fa fa-check"></i><b>8</b> Bài toán 8: Bức chân dung xấu xí “đắt đỏ”</a></li>
+<li class="chapter" data-level="9" data-path="bài-toán-9-nhiệt-độ-cơ-thể-của-con-mọt-gạo..html"><a href="bài-toán-9-nhiệt-độ-cơ-thể-của-con-mọt-gạo..html"><i class="fa fa-check"></i><b>9</b> Bài toán 9: Nhiệt độ cơ thể của con mọt gạo.</a></li>
+<li class="chapter" data-level="10" data-path="bài-toán-10-trò-lừa-thế-kỷ..html"><a href="bài-toán-10-trò-lừa-thế-kỷ..html"><i class="fa fa-check"></i><b>10</b> Bài toán 10: Trò lừa thế kỷ.</a></li>
+<li class="chapter" data-level="11" data-path="bài-tập-11-ngăn-chặn-sốt-rét.html"><a href="bài-tập-11-ngăn-chặn-sốt-rét.html"><i class="fa fa-check"></i><b>11</b> Bài tập 11: Ngăn chặn sốt rét!</a></li>
+<li class="chapter" data-level="12" data-path="bài-toán-12-không-có-gió---lá-cờ-bay-vẫn-bay.html"><a href="bài-toán-12-không-có-gió---lá-cờ-bay-vẫn-bay.html"><i class="fa fa-check"></i><b>12</b> Bài toán 12: Không có gió - lá cờ bay vẫn bay!</a></li>
+<li class="chapter" data-level="13" data-path="bài-toán-13-tập-luyện-cùng-nhà-vô-địch.html"><a href="bài-toán-13-tập-luyện-cùng-nhà-vô-địch.html"><i class="fa fa-check"></i><b>13</b> Bài toán 13: Tập luyện cùng nhà vô địch!</a></li>
+<li class="chapter" data-level="14" data-path="bài-toán-14-chuyến-thám-hiểm-nam-cực.html"><a href="bài-toán-14-chuyến-thám-hiểm-nam-cực.html"><i class="fa fa-check"></i><b>14</b> Bài toán 14: Chuyến thám hiểm Nam Cực!</a></li>
+<li class="chapter" data-level="15" data-path="bài-toán-15-nước-đá-không-phải-chỉ-để-giải-khát.html"><a href="bài-toán-15-nước-đá-không-phải-chỉ-để-giải-khát.html"><i class="fa fa-check"></i><b>15</b> Bài toán 15: Nước đá không phải chỉ để giải khát!</a></li>
+<li class="chapter" data-level="16" data-path="bài-toán-16-thử-thách-hiền-tài.html"><a href="bài-toán-16-thử-thách-hiền-tài.html"><i class="fa fa-check"></i><b>16</b> Bài toán 16: Thử thách hiền tài!</a></li>
+<li class="chapter" data-level="17" data-path="bài-toán-17-ước-gì-tôi-có-10-cái-tay.html"><a href="bài-toán-17-ước-gì-tôi-có-10-cái-tay.html"><i class="fa fa-check"></i><b>17</b> Bài toán 17: Ước gì tôi có 10 cái tay!</a></li>
+<li class="chapter" data-level="18" data-path="bài-toán-18-hãy-nhanh-lên.html"><a href="bài-toán-18-hãy-nhanh-lên.html"><i class="fa fa-check"></i><b>18</b> Bài toán 18: Hãy nhanh lên!</a></li>
+<li class="chapter" data-level="19" data-path="bài-toán-19-tấc-đất-tấc-vàng.html"><a href="bài-toán-19-tấc-đất-tấc-vàng.html"><i class="fa fa-check"></i><b>19</b> Bài toán 19: Tấc đất tấc vàng!</a></li>
+<li class="chapter" data-level="20" data-path="bài-toán-20-hành-tinh-nguy-hiểm.html"><a href="bài-toán-20-hành-tinh-nguy-hiểm.html"><i class="fa fa-check"></i><b>20</b> Bài toán 20: Hành Tinh nguy hiểm!</a></li>
+<li class="chapter" data-level="21" data-path="bài-toán-21-con-quạ-khát-nước.html"><a href="bài-toán-21-con-quạ-khát-nước.html"><i class="fa fa-check"></i><b>21</b> Bài toán 21: Con quạ khát nước!</a></li>
+<li class="chapter" data-level="22" data-path="bài-toán-22-không-thể-làm-trái-lệnh-vua.html"><a href="bài-toán-22-không-thể-làm-trái-lệnh-vua.html"><i class="fa fa-check"></i><b>22</b> Bài toán 22: Không thể làm trái lệnh vua!</a></li>
+<li class="chapter" data-level="23" data-path="bài-toán-23-robinson-trên-đảo-hoang.html"><a href="bài-toán-23-robinson-trên-đảo-hoang.html"><i class="fa fa-check"></i><b>23</b> Bài toán 23: Robinson trên đảo hoang!</a></li>
+<li class="chapter" data-level="24" data-path="bài-toán-24-thỏ-rex-quí-hiếm.html"><a href="bài-toán-24-thỏ-rex-quí-hiếm.html"><i class="fa fa-check"></i><b>24</b> Bài toán 24: Thỏ Rex quí hiếm !</a></li>
+<li class="chapter" data-level="25" data-path="bài-toán-25-loài-cáo-vùng-alaska.html"><a href="bài-toán-25-loài-cáo-vùng-alaska.html"><i class="fa fa-check"></i><b>25</b> Bài toán 25: Loài cáo vùng Alaska !</a></li>
+<li class="chapter" data-level="26" data-path="bài-toán-26-thuyền-độc-mộc.html"><a href="bài-toán-26-thuyền-độc-mộc.html"><i class="fa fa-check"></i><b>26</b> Bài toán 26: Thuyền độc mộc !</a></li>
+<li class="chapter" data-level="27" data-path="bài-toán-27-tấm-kính-oval.html"><a href="bài-toán-27-tấm-kính-oval.html"><i class="fa fa-check"></i><b>27</b> Bài toán 27: Tấm kính oval!</a></li>
+<li class="chapter" data-level="28" data-path="bài-toán-28-thanh-thuỷ-tinh-mỏng-manh.html"><a href="bài-toán-28-thanh-thuỷ-tinh-mỏng-manh.html"><i class="fa fa-check"></i><b>28</b> Bài toán 28: Thanh thuỷ tinh mỏng manh!</a></li>
+<li class="chapter" data-level="29" data-path="bài-toán-29-xiếc-sư-tử.html"><a href="bài-toán-29-xiếc-sư-tử.html"><i class="fa fa-check"></i><b>29</b> Bài toán 29: Xiếc sư tử!</a></li>
+<li class="chapter" data-level="30" data-path="bài-toán-30-chuyện-gì-đã-xảy-ra.html"><a href="bài-toán-30-chuyện-gì-đã-xảy-ra.html"><i class="fa fa-check"></i><b>30</b> Bài toán 30: Chuyện gì đã xảy ra?</a></li>
+<li class="chapter" data-level="31" data-path="bài-toán-31-cái-hang-này-cao-bao-nhiêu-mét.html"><a href="bài-toán-31-cái-hang-này-cao-bao-nhiêu-mét.html"><i class="fa fa-check"></i><b>31</b> Bài toán 31: Cái hang này cao bao nhiêu mét?</a></li>
+<li class="chapter" data-level="32" data-path="bài-toán-32-ngôi-sao-trên-nóc-toà-nhà..html"><a href="bài-toán-32-ngôi-sao-trên-nóc-toà-nhà..html"><i class="fa fa-check"></i><b>32</b> Bài toán 32: Ngôi sao trên nóc toà nhà.</a></li>
+<li class="chapter" data-level="33" data-path="bài-toán-33-con-mèo-và-đàn-chim-nhỏ..html"><a href="bài-toán-33-con-mèo-và-đàn-chim-nhỏ..html"><i class="fa fa-check"></i><b>33</b> Bài toán 33: Con mèo và đàn chim nhỏ.</a></li>
+<li class="chapter" data-level="34" data-path="bài-toán-34-chú-ong-mật-bị-bệnh..html"><a href="bài-toán-34-chú-ong-mật-bị-bệnh..html"><i class="fa fa-check"></i><b>34</b> Bài toán 34: Chú ong mật bị bệnh.</a></li>
+<li class="chapter" data-level="35" data-path="bài-toán-35-hãy-giữ-phẩm-giá-cho-vua-francis-i..html"><a href="bài-toán-35-hãy-giữ-phẩm-giá-cho-vua-francis-i..html"><i class="fa fa-check"></i><b>35</b> Bài toán 35: Hãy giữ phẩm giá cho vua Francis I.</a></li>
+<li class="chapter" data-level="36" data-path="bài-toán-36-vàng-được-cất-giấu-ở-đâu..html"><a href="bài-toán-36-vàng-được-cất-giấu-ở-đâu..html"><i class="fa fa-check"></i><b>36</b> Bài toán 36: Vàng được cất giấu ở đâu?.</a></li>
+<li class="chapter" data-level="37" data-path="bài-toán-37-nhện-là-bạn-không-phải-kẻ-thù..html"><a href="bài-toán-37-nhện-là-bạn-không-phải-kẻ-thù..html"><i class="fa fa-check"></i><b>37</b> Bài toán 37: Nhện là bạn, không phải kẻ thù!.</a></li>
+<li class="chapter" data-level="38" data-path="bài-toán-38-phong-tục-cưới-hỏi-ở-delhi..html"><a href="bài-toán-38-phong-tục-cưới-hỏi-ở-delhi..html"><i class="fa fa-check"></i><b>38</b> Bài toán 38: Phong tục cưới hỏi ở Delhi!.</a></li>
+<li class="chapter" data-level="39" data-path="bài-toán-39-gấu-bắc-cực-liệu-có-thích-màu-trắng..html"><a href="bài-toán-39-gấu-bắc-cực-liệu-có-thích-màu-trắng..html"><i class="fa fa-check"></i><b>39</b> Bài toán 39: Gấu “Bắc Cực” liệu có thích màu trắng!.</a></li>
+<li class="chapter" data-level="40" data-path="bài-toán-40-cậu-bé-bedouin-vừa-chào-đời..html"><a href="bài-toán-40-cậu-bé-bedouin-vừa-chào-đời..html"><i class="fa fa-check"></i><b>40</b> Bài toán 40: Cậu bé Bedouin vừa chào đời!.</a></li>
+<li class="chapter" data-level="41" data-path="bài-toán-41-người-thợ-săn-điếc..html"><a href="bài-toán-41-người-thợ-săn-điếc..html"><i class="fa fa-check"></i><b>41</b> Bài toán 41: Người thợ săn điếc!.</a></li>
+<li class="chapter" data-level="42" data-path="bài-toán-42-đoàn-tàu-không-thể-chờ-thêm-nữa.html"><a href="bài-toán-42-đoàn-tàu-không-thể-chờ-thêm-nữa.html"><i class="fa fa-check"></i><b>42</b> Bài toán 42: Đoàn tàu không thể chờ thêm nữa!</a></li>
+<li class="chapter" data-level="43" data-path="bài-toán-43-chú-gấu-nặng-mấy-kilogram.html"><a href="bài-toán-43-chú-gấu-nặng-mấy-kilogram.html"><i class="fa fa-check"></i><b>43</b> Bài toán 43: Chú gấu nặng mấy kilogram?</a></li>
+<li class="chapter" data-level="44" data-path="bài-toán-44-cuộc-chiến-với-chim-bồ-câu..html"><a href="bài-toán-44-cuộc-chiến-với-chim-bồ-câu..html"><i class="fa fa-check"></i><b>44</b> Bài toán 44: cuộc chiến với chim bồ câu.</a></li>
+<li class="chapter" data-level="45" data-path="bài-toán-45-tiếng-trống-liên-hồi..html"><a href="bài-toán-45-tiếng-trống-liên-hồi..html"><i class="fa fa-check"></i><b>45</b> Bài toán 45: Tiếng trống liên hồi.</a></li>
+<li class="chapter" data-level="46" data-path="bài-toán-46vua-điếc..html"><a href="bài-toán-46vua-điếc..html"><i class="fa fa-check"></i><b>46</b> Bài toán 46:Vua điếc.</a></li>
+<li class="chapter" data-level="47" data-path="bài-toán-47-thanh-kiếm-takoba..html"><a href="bài-toán-47-thanh-kiếm-takoba..html"><i class="fa fa-check"></i><b>47</b> Bài toán 47: Thanh kiếm Takoba.</a></li>
+<li class="chapter" data-level="48" data-path="bài-toán-48-cầu-cây..html"><a href="bài-toán-48-cầu-cây..html"><i class="fa fa-check"></i><b>48</b> Bài toán 48: Cầu cây.</a></li>
+<li class="chapter" data-level="49" data-path="bài-toán-49-con-ngựa-trên-mái-nhà..html"><a href="bài-toán-49-con-ngựa-trên-mái-nhà..html"><i class="fa fa-check"></i><b>49</b> Bài toán 49: Con ngựa trên mái nhà.</a></li>
+<li class="chapter" data-level="50" data-path="bài-toán-50-voi-chiến-sang-sông..html"><a href="bài-toán-50-voi-chiến-sang-sông..html"><i class="fa fa-check"></i><b>50</b> Bài toán 50: Voi chiến sang sông.</a></li>
+<li class="chapter" data-level="51" data-path="bài-toán-51-liệu-ông-archimedes-có-liên-quan..html"><a href="bài-toán-51-liệu-ông-archimedes-có-liên-quan..html"><i class="fa fa-check"></i><b>51</b> Bài toán 51: Liệu ông Archimedes có liên quan?.</a></li>
+<li class="chapter" data-level="52" data-path="bài-toán-52-lấy-vợ-hay-lấy-gia-tài..html"><a href="bài-toán-52-lấy-vợ-hay-lấy-gia-tài..html"><i class="fa fa-check"></i><b>52</b> Bài toán 52: Lấy “vợ” hay lấy “gia tài”?.</a></li>
+<li class="chapter" data-level="53" data-path="bài-toán-53-hôn-gương..html"><a href="bài-toán-53-hôn-gương..html"><i class="fa fa-check"></i><b>53</b> Bài toán 53: “Hôn” gương.</a></li>
+<li class="chapter" data-level="54" data-path="bài-toán-54-xin-tên-của-địch..html"><a href="bài-toán-54-xin-tên-của-địch..html"><i class="fa fa-check"></i><b>54</b> Bài toán 54: Xin “tên” của địch.</a></li>
+<li class="chapter" data-level="55" data-path="bài-toán-55-tăng-giảm-hay-không-có-gì-xảy-ra..html"><a href="bài-toán-55-tăng-giảm-hay-không-có-gì-xảy-ra..html"><i class="fa fa-check"></i><b>55</b> Bài toán 55: Tăng – giảm hay không có gì xảy ra?.</a></li>
+<li class="chapter" data-level="56" data-path="bài-toán-56-lâu-đài-gia-đình-montaigne.html"><a href="bài-toán-56-lâu-đài-gia-đình-montaigne.html"><i class="fa fa-check"></i><b>56</b> Bài toán 56: Lâu đài gia đình Montaigne?</a></li>
+<li class="chapter" data-level="57" data-path="bài-toán-57-trực-thăng-không-giúp-được.html"><a href="bài-toán-57-trực-thăng-không-giúp-được.html"><i class="fa fa-check"></i><b>57</b> Bài toán 57: Trực thăng không giúp được!</a></li>
+<li class="chapter" data-level="58" data-path="bài-toán-58-chiếc-điều-hoà-hoạt-động-như-thế-nào.html"><a href="bài-toán-58-chiếc-điều-hoà-hoạt-động-như-thế-nào.html"><i class="fa fa-check"></i><b>58</b> Bài toán 58: Chiếc điều hoà hoạt động như thế nào?</a></li>
+<li class="chapter" data-level="59" data-path="bài-toán-59-những-chiếc-giày-không-còn-giá-trị.html"><a href="bài-toán-59-những-chiếc-giày-không-còn-giá-trị.html"><i class="fa fa-check"></i><b>59</b> Bài toán 59: Những chiếc giày “không còn” giá trị!</a></li>
+<li class="chapter" data-level="60" data-path="bài-toán-60-no-graffiti.html"><a href="bài-toán-60-no-graffiti.html"><i class="fa fa-check"></i><b>60</b> Bài toán 60: No Graffiti!</a></li>
+<li class="chapter" data-level="61" data-path="bài-toán-61-ống-thuỷ-tinh-đựng-thuốc.html"><a href="bài-toán-61-ống-thuỷ-tinh-đựng-thuốc.html"><i class="fa fa-check"></i><b>61</b> Bài toán 61: Ống thuỷ tinh đựng thuốc!</a></li>
+<li class="chapter" data-level="62" data-path="bài-toán-62-những-vị-khách-không-mời.html"><a href="bài-toán-62-những-vị-khách-không-mời.html"><i class="fa fa-check"></i><b>62</b> Bài toán 62: Những vị khách không mời!</a></li>
+<li class="chapter" data-level="63" data-path="bài-toán-63-hung-thần-ở-bên-dưới.html"><a href="bài-toán-63-hung-thần-ở-bên-dưới.html"><i class="fa fa-check"></i><b>63</b> Bài toán 63: Hung thần ở bên dưới!</a></li>
+<li class="chapter" data-level="64" data-path="bài-toán-64-điều-ước-của-chị-lao-công.html"><a href="bài-toán-64-điều-ước-của-chị-lao-công.html"><i class="fa fa-check"></i><b>64</b> Bài toán 64: “Điều ước” của chị lao công!</a></li>
+<li class="chapter" data-level="65" data-path="bài-toán-65-trò-chơi-slip-n-fly.html"><a href="bài-toán-65-trò-chơi-slip-n-fly.html"><i class="fa fa-check"></i><b>65</b> Bài toán 65: Trò chơi “Slip N Fly”!</a></li>
+<li class="chapter" data-level="66" data-path="bài-toán-66-ngựa-vằn-hay-uốn-lượn-con-đường.html"><a href="bài-toán-66-ngựa-vằn-hay-uốn-lượn-con-đường.html"><i class="fa fa-check"></i><b>66</b> Bài toán 66: Ngựa vằn hay uốn lượn con đường !</a></li>
+<li class="chapter" data-level="67" data-path="bài-toán-67-tên-gì-cho-ngầu.html"><a href="bài-toán-67-tên-gì-cho-ngầu.html"><i class="fa fa-check"></i><b>67</b> Bài toán 67: “Tên” gì cho ngầu!</a></li>
+<li class="chapter" data-level="68" data-path="bài-toán-68-chiếc-mũ-xinh-đẹp.html"><a href="bài-toán-68-chiếc-mũ-xinh-đẹp.html"><i class="fa fa-check"></i><b>68</b> Bài toán 68: Chiếc mũ xinh đẹp!</a></li>
+<li class="chapter" data-level="69" data-path="bài-toán-69-phải-ngủ-và-không-ngủ.html"><a href="bài-toán-69-phải-ngủ-và-không-ngủ.html"><i class="fa fa-check"></i><b>69</b> Bài toán 69: Phải “ngủ” và không “ngủ”!</a></li>
+<li class="chapter" data-level="70" data-path="bài-toán-70-không-được-dùng-găng-tay.html"><a href="bài-toán-70-không-được-dùng-găng-tay.html"><i class="fa fa-check"></i><b>70</b> Bài toán 70: Không được dùng “găng tay”!</a></li>
+<li class="chapter" data-level="71" data-path="bài-toán-71-oxi-cho-ao-nuôi-cá.html"><a href="bài-toán-71-oxi-cho-ao-nuôi-cá.html"><i class="fa fa-check"></i><b>71</b> Bài toán 71: Oxi cho ao nuôi cá!</a></li>
+<li class="chapter" data-level="72" data-path="bài-toán-72-phẳng-tuyệt-đối.html"><a href="bài-toán-72-phẳng-tuyệt-đối.html"><i class="fa fa-check"></i><b>72</b> Bài toán 72: Phẳng tuyệt đối!</a></li>
+<li class="chapter" data-level="73" data-path="bài-toán-73hàng-rào-vô-hình.html"><a href="bài-toán-73hàng-rào-vô-hình.html"><i class="fa fa-check"></i><b>73</b> Bài toán 73:Hàng rào “vô hình”</a></li>
+<li class="chapter" data-level="74" data-path="bài-toán-74-sơn-không-phai.html"><a href="bài-toán-74-sơn-không-phai.html"><i class="fa fa-check"></i><b>74</b> Bài toán 74: Sơn không phai!</a></li>
+<li class="chapter" data-level="75" data-path="bài-toán-75-thách-thức-từ-edison.html"><a href="bài-toán-75-thách-thức-từ-edison.html"><i class="fa fa-check"></i><b>75</b> Bài toán 75: Thách thức từ Edison</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Minimal Book Example</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="bài-toán-15-nước-đá-không-phải-chỉ-để-giải-khát" class="section level1 hasAnchor" number="15">
+<h1><span class="header-section-number">Chapter 15</span> Bài toán 15: Nước đá không phải chỉ để giải khát!<a href="bài-toán-15-nước-đá-không-phải-chỉ-để-giải-khát.html#bài-toán-15-nước-đá-không-phải-chỉ-để-giải-khát" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Vào một ngày đẹp trời ở Baku, Azerbaijan, một cậu bé học sinh lớp 4 đang trở về từ trường, cậu nhìn thấy một số thợ sửa chữa, buồn bã đang đam chiêu hút thuốc cạnh trạm biến áp. Họ đang đứng nhìn chiếc máy biến áp to tướng, nặng cồng kềnh đặt trên chân đế betong cao hơn 1 met. Họ đang chờ đợi chiếc xe cần cẩu đến để hạ cái vật nặng hàng tấn này xuống để lắp đặt cái mới. Cả thành phố sẽ chìm trong bóng tối vì xe cần cẩu cuối tuần mới tới nơi. Một viên kế toán ngồi trên xe ngựa và chở đầy nước đá phía sau. Hỏi viên kế toán đã làm như thế nào để hạ xuống chiếc máy biến áp hỏng?.</p>
+<p>Đây là lần đầu tiên câu bé Genrich Altshuller chứng kiến một nhà sáng chế, đánh dấu bước ngoặc trong cuộc đời của Genrich Altshuller – người khai sinh ra phương pháp luận sáng tạo Triz.
+Happy Birthday Genrich Altshuller! 15 – 10 – 1926.</p>
+<p><img src="images/15.jpeg" /></p>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="bài-toán-14-chuyến-thám-hiểm-nam-cực.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="bài-toán-16-thử-thách-hiền-tài.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/01-intro.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
